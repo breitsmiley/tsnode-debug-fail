@@ -1,7 +1,6 @@
-const a = 5;
+let a = 5;
 
 setInterval(() => {
-    let b = a;
-    b++;
-    console.log(b);
-}, 3000);
+    a++;
+    console.log(a++);
+}, 2000);
