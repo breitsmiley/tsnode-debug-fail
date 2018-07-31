@@ -1,0 +1,16 @@
+{
+   "name": "tsnode-debug-fail",
+   "version": "1.0.0",
+   "scripts": {
+      "prestart": "npm install",
+      "start": "nodemon --config nodemon-debug.json"
+   },
+   "dependencies": {
+      "typescript": "^2.9.2"
+   },
+   "devDependencies": {
+      "nodemon": "^1.14.1",
+      "ts-node": "6.0.0",
+      "tsconfig-paths": "^3.3.1"
+   }
+}

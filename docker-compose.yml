@@ -1,0 +1,17 @@
+version: '3.6'
+
+services:
+
+  c-crypto-worker:
+    image: node:10.1.0-alpine
+    volumes:
+      - type: bind
+        source: ./app
+        target: /app
+    ports:
+    - "9229:9229"
+    working_dir: /app
+    command: ["npm", "run", "start"]
+#    command: ["ping", "127.0.0.1"]
+
+

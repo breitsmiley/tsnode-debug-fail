@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "exec": "node -r ts-node/register -r tsconfig-paths/register --inspect=0.0.0.0 src/main.ts"
+}
